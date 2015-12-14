@@ -773,8 +773,8 @@
             n);
 
         alpaka::Vec<Dim2, TSize> const elemExtent(
-            static_cast<TSize>(2),
-            static_cast<TSize>(2));
+            static_cast<TSize>(1),
+            static_cast<TSize>(1));
 
 
         // Wrap the Pointers into memory buffer objects.
